@@ -1,0 +1,27 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": "10.16.3",
+    "npm": "6.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    ".": "node -r dotenv/config ."
+  },
+  "author": "LxwFi",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.6.4",
+    "dotenv": "^8.2.0",
+    "got": "^10.7.0",
+    "node-osu": "^2.2.0",
+    "rcon-ts": "^1.2.3",
+    "rebuild": "^0.1.2",
+    "twit": "^2.2.11"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}
