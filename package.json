@@ -1,10 +1,11 @@
 {
-  "name": "discord-bot",
+  "name": "bot",
   "version": "1.0.0",
+  "description": "Discord Bot",
   "main": "index.js",
   "engines": {
-    "node": "10.16.3",
-    "npm": "6.9.0"
+    "node": "16.13.1",
+    "npm": "8.1.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,15 +14,18 @@
   "author": "LxwFi",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.6.4",
-    "dotenv": "^8.2.0",
-    "got": "^10.7.0",
-    "node-osu": "^2.2.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "currency-converter-lt": "^1.1.4",
+    "currency-formatter": "^1.5.9",
+    "discord-api-types": "^0.25.2",
+    "discord.js": "^13.3.1",
+    "dotenv": "^10.0.0",
+    "got": "^11.8.3",
+    "node-osu": "^2.2.1",
     "rcon-ts": "^1.2.3",
     "rebuild": "^0.1.2",
-    "twit": "^2.2.11"
-  },
-  "devDependencies": {},
-  "keywords": [],
-  "description": ""
+    "teemojs": "^1.8.0",
+    "twit": "^2.2.11",
+    "wokcommands": "^1.5.3"
+  }
 }

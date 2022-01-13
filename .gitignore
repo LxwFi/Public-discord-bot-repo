@@ -1,5 +1,2 @@
 .env
-index(backup).js
-test.js
-node_modules
-config.json
+demo.js
